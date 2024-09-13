@@ -1,0 +1,50 @@
+/* RelatedProducts.css */
+.relatedproducts {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .relatedproducts h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .relatedproducts hr {
+    border: 0.5px solid #ccc;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .relatedproducts-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; /* Adjust the gap as needed to control spacing between products */
+  }
+  
+  /* Style for individual product items (you may need to adjust the styles to fit your specific needs) */
+  .item {
+    width: calc(25% - 20px); /* Each product takes up 25% of the container width with a 20px gap in between */
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  /* Set the height of the image to 250px */
+  .item img {
+    max-width: 100%;
+    height: 250px; /* Set the height to 250px */
+  }
+  
+  /* Media query for responsive design (adjust breakpoints as needed) */
+  @media (max-width: 768px) {
+    .item {
+      width: calc(50% - 20px); /* Display two products per row on smaller screens with a 20px gap */
+    }
+  }
+  

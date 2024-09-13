@@ -1,0 +1,39 @@
+
+.heading {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .popular-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+  }
+ 
+  .item {
+    width: 23%; 
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+  
+   
+  }
+  
+  
+  
+  .item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .item {
+      width: 48%; 
+    }
+  }
+  

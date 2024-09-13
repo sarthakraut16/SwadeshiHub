@@ -1,0 +1,23 @@
+.popular{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    /* border: 1px solid red; */
+}
+
+
+.popular-item{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+}
+
+/* .popular-box-item{
+    display: flex;
+    flex-direction: column;
+}
+.popular-box{
+    display: flex;
+} */
